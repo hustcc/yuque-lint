@@ -1,0 +1,38 @@
+{
+  "name": "yuque-lint",
+  "version": "0.0.1",
+  "description": "Markdown lint server for yuque.com",
+  "bin": {
+    "yuque-lint": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "babel src -d bin"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "commander": "^2.19.0",
+    "ding-robot": "^1.0.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lint-md": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hustcc/yuque-lint.git"
+  },
+  "keywords": [
+    "yuque",
+    "markdown",
+    "lint",
+    "lint-md"
+  ],
+  "author": "hustcc",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-version": "^0.2.3"
+  }
+}

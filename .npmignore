@@ -1,0 +1,6 @@
+.babelrc
+.gitignore
+.idea
+
+*.tgz
+src
